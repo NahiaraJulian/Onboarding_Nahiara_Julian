@@ -76,15 +76,7 @@ for (let i = 0; i <= enterNumber; i++) {
 }
 
 //3
-function ringBell(){
-    console.log("Ding Dong")
-    return "Ding Dong, "
-}
-let enterRing = Number(prompt("Enter number of ring"))
-for (let i = 0; i <= enterRing; i++) {
-    ringBell()
-}
-*/
+
 /*
 //4
 const dateLimit = "1997-8-3"
@@ -136,20 +128,7 @@ presentationOfFamily()
 
 //Level High
 //1
-let enterNum = Number(prompt(`Enter a number, enter 0 for end`))
-let addNumbers = 0
-const evenNum = []
-const oddNum = []
-for(let i = 0; i <= 100; i++){
-    if(i % 2 == 0){
-        evenNum.push(i)
-    }else{
-        oddNum.push(i)
-    }
-}
-console.log(evenNum)
-console.log(oddNum)
-*/
+
 //2
 let numArray = [5,9,54,25,61,35,10,22,7,49]
 function findLargestNumber(numArray) {
@@ -162,4 +141,4 @@ function findLargestNumber(numArray) {
     console.log(largest)
 }
 findLargestNumber(numArray)
-
+*/
